@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*body{
+	background-color: cyan;
+}*/
+.div1{
+	width: 260px;
+	height: 100px;
+	border: 1px solid black;
+
+}
+.dynamic{
+	border: 1px solid red;
+}
+.d1{
+	background-color: cyan;
+}
+.remove_color{
+	background-color: blue;
+}
+.add_color{
+	background-color:violet;
+	height: 40px;
+}
+
+.div1, .div2{
+	width: 200px;
+	height: 100px;
+	border: 1px solid #000;
+	/*float: left;*/
+	margin: 20px;
+}
+#aa{
+	color: red;
+}
+#n1,#p1,#e1{
+	display: none;
+}
+
+.required-field:after {
+
+	border:2px solid red;
+	content: "Required";
+	position: relative;
+	left:10%;
+}
+#visible{
+	display: none;
+}
+#demo{
+	background-color: red;
+	height: 20px;
+	width: 20px;
+	padding:50px;
+	/* display: none; */
+}
+button{
+	cursor: pointer;
+}
+
